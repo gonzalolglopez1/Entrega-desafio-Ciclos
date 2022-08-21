@@ -1,5 +1,9 @@
 let comoestuvolaclase = prompt("como estuvo la clase del 1 al 5?");
 
+if (comoestuvolaclase == "esc"){
+    console.log("hemos terminado")
+}else{
+
 
 
     switch (comoestuvolaclase) {
@@ -21,7 +25,7 @@ let comoestuvolaclase = prompt("como estuvo la clase del 1 al 5?");
         default: console.log("no hay nota")
             break;
     }
-
+}
 
 
 
